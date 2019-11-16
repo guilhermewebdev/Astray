@@ -1,0 +1,21 @@
+{
+  "name": "jogo",
+  "version": "1.0.0",
+  "description": "Jogo de teste",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./node_modules/electron/cli.js ./jogo/index.js"
+  },
+  "keywords": [
+    "jogo"
+  ],
+  "author": "Guilherme Isaias Silva",
+  "license": "ISC",
+  "dependencies": {
+    "@types/electron": "^1.6.10"
+  },
+  "devDependencies": {
+    "electron": "^7.1.1",
+    "electron-prebuilt": "^1.4.13"
+  }
+}
